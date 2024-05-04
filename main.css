@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Arizonia';
+	src: url('../fonts/fonts/Arizonia-Regular.woff2') format('woff2'), url('../fonts/fonts/Arizonia-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+html,
+body{
+    background-color: black;
+    color:White;
+    font-family:"Arizonia" , sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 1000px;
+}
+header{
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    
+    
+}
+ul.hr{
+    padding:10px;
+    
+}
+.hr li{
+    display: inline;
+    margin: 0 2%;
+    padding: 3px;   
+    align-items: center; 
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    display: inline;
+    float: left;
+    margin-bottom: 5px;
+    
+}
+/* For linls invision */
+.invision{
+    text-decoration: none;
+    color:white;
+    display: inline;
+    margin: 0px;
+    border: 1px solid white;
+    padding: 3px 10px;
+
+}
+.invision:hover{
+    color:orange;
+    border: 1px solid orange;
+
+}
+
+/* IMAGE  */
+.imaginatoin{
+    display: inline;
+    float: left;
+    height: 400px ;
+    width: 300px;
+    margin: 3px 10px;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+.img_han{
+    font-size:x-large;
+}
+
+/* BACKground for div1 */
+.background_div1{
+    background:linear-gradient(gray,black);
+    width:1000px;
+    height:400px;  
+    flex: 1 1 auto;
+
+}
+.main{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* sectoin  */
+.sec{
+    width:33%;
+    height: 100px;
+    background-color:gray;
+    font-size: 15px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px 10px;
+}
